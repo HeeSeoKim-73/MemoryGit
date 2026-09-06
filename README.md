@@ -62,15 +62,19 @@ Blockchain Verification
 ## 실행 방법
 
 ### 1. Python 패키지 설치
-
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2. Ollama 설치
-
+```bash
 https://ollama.com/
-
+```
 ### 3. 모델 다운로드
+```bash
 ollama pull llama3.2:3b
+```
 ### 4. 실행
+```bash
 streamlit run app.py
+```
