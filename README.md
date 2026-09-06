@@ -78,3 +78,34 @@ ollama pull llama3.2:3b
 ```bash
 streamlit run app.py
 ```
+
+## Smart Contract
+
+contracts/MemoryRegistry.sol
+
+승인된 기억의 원문은 블록체인에 저장하지 않습니다.
+
+블록체인에는 다음 정보만 기록합니다.
+
+Memory ID
+SHA-256 Hash
+승인 지갑 주소
+Timestamp
+
+## Architecture
+AI A ─────┐
+          │
+          ├── Semantic Diff
+          │
+AI B ─────┘
+              ↓
+        Merge Proposal
+              ↓
+        User Approval
+              ↓
+       Canonical Memory
+              ↓
+           SHA-256
+              ↓
+    Ethereum Sepolia
+
