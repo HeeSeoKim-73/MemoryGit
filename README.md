@@ -92,20 +92,5 @@ SHA-256 Hash
 승인 지갑 주소
 Timestamp
 
-## Architecture
-AI A ─────┐
-          │
-          ├── Semantic Diff
-          │
-AI B ─────┘
-              ↓
-        Merge Proposal
-              ↓
-        User Approval
-              ↓
-       Canonical Memory
-              ↓
-           SHA-256
-              ↓
-    Ethereum Sepolia
+
 
