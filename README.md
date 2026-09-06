@@ -65,3 +65,12 @@ Blockchain Verification
 
 ```bash
 pip install -r requirements.txt
+
+### 2. Ollama 설치
+
+https://ollama.com/
+
+### 3. 모델 다운로드
+ollama pull llama3.2:3b
+### 4. 실행
+streamlit run app.py
