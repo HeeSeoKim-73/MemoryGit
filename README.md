@@ -87,10 +87,10 @@ contracts/MemoryRegistry.sol
 
 블록체인에는 다음 정보만 기록합니다.
 
-Memory ID
-SHA-256 Hash
-승인 지갑 주소
-Timestamp
+- Memory ID
+- SHA-256 Hash
+- 승인 지갑 주소
+- Timestamp
 
 
 
